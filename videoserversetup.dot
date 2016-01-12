@@ -1,0 +1,23 @@
+# dot -Tsvg videoserversetup.dot > videoserversetup.svg
+digraph G {
+	concentrate=true;
+	node [shape=box];
+	fosbox_slides [label="slides videobox"];
+	fosbox_cam [label="camera videobox"];
+	live_server [label="live.fosdem.org"];
+	stream_server [label="stream-a.fosdem.org"];
+	penta [label="penta.fosdem.org"];
+	video [label="video.fosdem.org"];
+	video_mirror1 [label="video mirror 1...n"];
+	venc0 [label="video encoder 0...n"];
+
+	fosbox_slides -> stream_server [label = "DTSC protocol (DDVTech) push"];
+	fosbox_cam -> stream_server [label="DTSC protocol (DDVTech) push"];
+	stream_server -> live_server [label="embed video through html5 video element, flash, dash and/or rtsp"];
+	live_server -> stream_server [label="cutting info"];
+	penta-> live_server [label="schedule XML"];
+	stream_server -> video [label="rsync over ssh?"];
+	video -> video_mirror1 [label="server@ knows"];
+	video -> venc0 [label="2 videos: separate sliced cam and slides videos"];
+	venc0 -> video [label="merged cam and slides video"];
+}
