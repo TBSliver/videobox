@@ -1,0 +1,17 @@
+OB_ID=4575
+
+CAM_END=
+CAM_START=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='ud2218a'
+
+TITLE='Why, but why, async and await keywords have been included in Python 3.5'
+SPEAKERS='Ludovic Gasc'
+

@@ -1,0 +1,18 @@
+OB_ID=4128
+
+CAM_END=
+CAM_START=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='h2213'
+
+TITLE='When is Distribution not Distribution?'
+SPEAKERS='Andrew Katz'
+
+SPEAKERS="$SPEAKERS and Björn Lundell"

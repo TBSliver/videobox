@@ -1,0 +1,17 @@
+OB_ID=3721
+
+CAM_END=
+CAM_START=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='h1302'
+
+TITLE='How Your Data Helps to Improve Firefox'
+SPEAKERS='Robert Kaiser'
+

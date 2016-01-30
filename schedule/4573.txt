@@ -1,0 +1,19 @@
+OB_ID=4573
+
+CAM_END=
+CAM_START=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='h1301'
+
+TITLE='Adoptions Group Cultural Guide to OpenJDK'
+SPEAKERS='Dalibor Topić'
+
+SPEAKERS="$SPEAKERS and Mario Torre"
+SPEAKERS="$SPEAKERS and Martijn Verburg"

@@ -1,0 +1,19 @@
+OB_ID=4132
+
+CAM_END=
+CAM_START=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='h2213'
+
+TITLE='Welcome to the Legal and Policy Issues Devroom'
+SPEAKERS='Bradley M. Kuhn'
+
+SPEAKERS="$SPEAKERS and Richard Fontana"
+SPEAKERS="$SPEAKERS and Tom Marble"

@@ -1,0 +1,17 @@
+OB_ID=3677
+
+CAM_END=
+CAM_START=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='h2215'
+
+TITLE='How choosing the Raft consensus algorithm saved us 3 months of development time'
+SPEAKERS='Robert Wojciechowski'
+

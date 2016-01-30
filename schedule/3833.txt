@@ -1,0 +1,17 @@
+OB_ID=3833
+
+CAM_END=
+CAM_START=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='ud2218a'
+
+TITLE='A Decade of Dual Licensing: Lessons Learned and Questions Remains'
+SPEAKERS='Perry Ismangil'
+

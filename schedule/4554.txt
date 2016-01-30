@@ -1,0 +1,18 @@
+OB_ID=4554
+
+CAM_END=
+CAM_START=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='h1301'
+
+TITLE='This Is Not A Drill - Preparing for JDK 9'
+SPEAKERS='Dalibor Topić'
+
+SPEAKERS="$SPEAKERS and Rory O’Donnell"

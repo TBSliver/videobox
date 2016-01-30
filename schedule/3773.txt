@@ -1,0 +1,17 @@
+OB_ID=3773
+
+CAM_END=
+CAM_START=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='aw1126'
+
+TITLE='Automating Big Data Benchmarking for Different Architectures'
+SPEAKERS='Nico Poggi'
+

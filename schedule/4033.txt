@@ -1,0 +1,19 @@
+OB_ID=4033
+
+CAM_END=
+CAM_START=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='h2215'
+
+TITLE='CYTOMINE : a web platform for collaborative analysis of multi-gigapixel images  with machine learning.'
+SPEAKERS='Grégoire VINCKE'
+
+SPEAKERS="$SPEAKERS and Raphaël Marée"
+SPEAKERS="$SPEAKERS and Renaud Hoyoux"

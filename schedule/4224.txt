@@ -1,0 +1,21 @@
+OB_ID=4224
+
+CAM_END=
+CAM_START=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='k3201'
+
+TITLE='The future of small languages'
+SPEAKERS='Andy Wingo'
+
+SPEAKERS="$SPEAKERS and Christopher Webber"
+SPEAKERS="$SPEAKERS and Etiene Dalcol"
+SPEAKERS="$SPEAKERS and Hisham Muhammad"
+SPEAKERS="$SPEAKERS and Ludovic Courtès"

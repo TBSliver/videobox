@@ -1,0 +1,17 @@
+OB_ID=4129
+
+CAM_END=
+CAM_START=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='ua2114'
+
+TITLE='Experiences with OpenDaylight Service Function Chaining (SFC)'
+SPEAKERS='Ronald van der Pol'
+

@@ -1,0 +1,18 @@
+OB_ID=4204
+
+CAM_END=
+CAM_START=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='aw1120'
+
+TITLE='3D everywhere with Babylon.js'
+SPEAKERS='Julian Chenard'
+
+SPEAKERS="$SPEAKERS and Raanan Weber"

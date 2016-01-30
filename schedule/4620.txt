@@ -1,0 +1,17 @@
+OB_ID=4620
+
+CAM_END=
+CAM_START=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='aw1124'
+
+TITLE='Creating a 3D Game Engine in Windows - Lessons Learned from Doom 3 BFG'
+SPEAKERS='Justin Squirek'
+

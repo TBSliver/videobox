@@ -1,0 +1,17 @@
+OB_ID=3760
+
+CAM_END=
+CAM_START=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='h1309'
+
+TITLE='Automated Implementation of PCI-DSS compliant solution using open-source tools'
+SPEAKERS='Ján Lieskovský'
+

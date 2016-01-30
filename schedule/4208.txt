@@ -1,0 +1,18 @@
+OB_ID=4208
+
+CAM_END=
+CAM_START=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='ua2220'
+
+TITLE='Testing interoperability with closed-source software through scriptable diplomacy'
+SPEAKERS='Karl Trygve Kalleberg'
+
+SPEAKERS="$SPEAKERS and Ole André Vadla Ravnås"

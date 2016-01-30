@@ -1,0 +1,18 @@
+OB_ID=4571
+
+CAM_END=
+CAM_START=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='h1301'
+
+TITLE='Optimizing Above the JVM in JRuby 9000'
+SPEAKERS='Charles Nutter'
+
+SPEAKERS="$SPEAKERS and Thomas  Enebo"

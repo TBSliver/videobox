@@ -1,0 +1,21 @@
+OB_ID=4528
+
+CAM_END=
+CAM_START=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='k4401'
+
+TITLE='Welcome to the Desktops DevRoom 2016'
+SPEAKERS='Christophe Fergeau'
+
+SPEAKERS="$SPEAKERS and Jerome Leclanche"
+SPEAKERS="$SPEAKERS and Michael Zanetti"
+SPEAKERS="$SPEAKERS and Pau Garcia i Quiles"
+SPEAKERS="$SPEAKERS and Philippe Caseiro"

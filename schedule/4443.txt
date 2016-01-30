@@ -1,0 +1,18 @@
+OB_ID=4443
+
+CAM_END=
+CAM_START=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='aw1120'
+
+TITLE='Free Knowledge Game Jam: Bringing Two Worlds Together '
+SPEAKERS='Jens Ohlig'
+
+SPEAKERS="$SPEAKERS and Julia Schuetze"

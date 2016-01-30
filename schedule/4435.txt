@@ -1,0 +1,18 @@
+OB_ID=4435
+
+CAM_END=
+CAM_START=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='ub2252a'
+
+TITLE='QEMU for Xen secure by default'
+SPEAKERS='Ian Jackson'
+
+SPEAKERS="$SPEAKERS and Stefano Stabellini"
