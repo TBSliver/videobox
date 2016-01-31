@@ -1,15 +1,15 @@
 OB_ID=3996
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=335
+CAM_START=22
+CAM_FILE=16-01-30_121527.ts
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=313
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_FILE=16-01-30_121549.ts
+PRES_START=0
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h1302'
@@ -17,3 +17,4 @@ ROOM='h1302'
 TITLE='Rock the Helpful Web with SUMO'
 SPEAKERS='Michal Dziewonski'
 
+# missing start
