@@ -18,3 +18,6 @@ TITLE='Single-pass Graph Streaming Analytics with Apache Flink'
 SPEAKERS='Paris Carbone'
 
 SPEAKERS="$SPEAKERS and Vasia Kalavri"
+
+# NO SLIDES
+# NO CAM
