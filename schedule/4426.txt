@@ -14,6 +14,6 @@ PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h1302'
 
-TITLE='AMENDMENT: Building an IoT Empire'
+TITLE='Building an IoT Empire'
 SPEAKERS='Michael Schloh von Bennewitz'
 

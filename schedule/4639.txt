@@ -14,6 +14,6 @@ PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h1301'
 
-TITLE='AMENDMENT: Fault Injection Testing With BMUnit'
+TITLE='Fault Injection Testing With BMUnit'
 SPEAKERS='Andrew Dinn'
 

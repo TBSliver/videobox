@@ -14,6 +14,6 @@ PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2215'
 
-TITLE='AMENDMENT: Arguman.org '
+TITLE='Arguman.org '
 SPEAKERS='Tuna VARGI'
 

@@ -14,6 +14,6 @@ PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h1302'
 
-TITLE='AMENDMENT: How well do you delegate? '
+TITLE='How well do you delegate? '
 SPEAKERS='Ali Spivak'
 

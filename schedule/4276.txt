@@ -14,6 +14,6 @@ PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='aw1126'
 
-TITLE='[AMENDMENT] Apache Bigtop'
+TITLE='Apache Bigtop'
 SPEAKERS='Olaf Flebbe'
 
