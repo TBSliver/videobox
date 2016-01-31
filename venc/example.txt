@@ -1,0 +1,19 @@
+OB_ID=3707
+
+CAM_END=5902
+CAM_START=4425
+CAM_FILE=16-01-30_123027.ts
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=6758
+PRES_SEEK=0 #optional
+PRES_FILE=16-01-30_121611.ts
+PRES_START=5281
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='h1308'
+
+TITLE='More on gdb for MySQL DBAs'
+SPEAKERS='Valerii Kravchuk'
+
