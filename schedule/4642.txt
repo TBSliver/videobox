@@ -14,6 +14,6 @@ PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2215'
 
-TITLE='AMENDMENT: How to develop eco-conscious Libre Hardware'
+TITLE='How to develop eco-conscious Libre Hardware'
 SPEAKERS='Luke Kenneth Casson Leighton'
 

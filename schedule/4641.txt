@@ -14,6 +14,6 @@ PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='k3401'
 
-TITLE='AMENDMENT: PJSIP: a free and open source multimedia communication library'
+TITLE='PJSIP: a free and open source multimedia communication library'
 SPEAKERS='Perry Ismangil'
 

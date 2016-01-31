@@ -1,4 +1,4 @@
-OB_ID=3962
+OB_ID=4644
 
 CAM_END=
 CAM_START=
@@ -12,8 +12,8 @@ PRES_FILE=
 PRES_START=
 PRES_STREAM='https://stream-a.fosdem.org/'
 
-ROOM='h2215'
+ROOM='h1309'
 
-TITLE='Arguman.org '
-SPEAKERS='Tuna VARGI'
+TITLE='Unified Framework for Big Data Foreign Data Wrappers (FDW)'
+SPEAKERS='Shivram Mani'
 

@@ -1,19 +1,19 @@
 OB_ID=4426
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=19603
+CAM_START=18087
+CAM_FILE=16-01-30_123152.ts
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=20566
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_FILE=16-01-30_121549.ts
+PRES_START=19050
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h1302'
 
-TITLE='AMENDMENT: Building an IoT Empire'
+TITLE='Building an IoT Empire'
 SPEAKERS='Michael Schloh von Bennewitz'
 

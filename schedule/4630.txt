@@ -18,3 +18,5 @@ TITLE='Community Based Testing'
 SPEAKERS='Ioana Chiorean'
 
 SPEAKERS="$SPEAKERS and Marcia Knous"
+
+# LOST

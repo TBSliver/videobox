@@ -1,4 +1,4 @@
-OB_ID=4115
+OB_ID=4522
 
 CAM_END=
 CAM_START=
@@ -6,15 +6,15 @@ CAM_FILE=
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=11444
+PRES_END=
 PRES_SEEK=0 #optional
-PRES_FILE='16-01-30_121138.ts'
-PRES_START=9778
+PRES_FILE=
+PRES_START=
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='aw1120'
 
-TITLE='Designing with and for developers'
-SPEAKERS='Belen Barros Pena'
+TITLE='Open Game Demo Hour'
+SPEAKERS='Jesse Himmelstein'
 
-# NO CAM
+SPEAKERS="$SPEAKERS and Raphael Goujet"

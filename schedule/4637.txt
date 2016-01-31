@@ -14,6 +14,6 @@ PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='ua2114'
 
-TITLE='AMENDMENT: Linux tc and eBPF'
+TITLE='Linux tc and eBPF'
 SPEAKERS='Daniel Borkmann'
 

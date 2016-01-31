@@ -18,3 +18,5 @@ TITLE='Building add-ons for Firefox with WebExtensions'
 SPEAKERS='Dan Callahan'
 
 SPEAKERS="$SPEAKERS and Jorge Villalobos"
+
+# LOST

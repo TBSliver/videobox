@@ -18,3 +18,5 @@ TITLE='Developing addons for Firefox OS'
 SPEAKERS='Adrian Crespo Ortiz '
 
 SPEAKERS="$SPEAKERS and Alex Lakatos"
+
+# LOST
