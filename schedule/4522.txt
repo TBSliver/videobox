@@ -1,0 +1,20 @@
+OB_ID=4522
+
+CAM_END=
+CAM_START=
+CAM_FILE=
+CAM_SEEK=0 # optional
+CAM_STREAM='https://stream-a.fosdem.org/'
+
+PRES_END=
+PRES_SEEK=0 #optional
+PRES_FILE=
+PRES_START=
+PRES_STREAM='https://stream-a.fosdem.org/'
+
+ROOM='aw1120'
+
+TITLE='Open Game Demo Hour'
+SPEAKERS='Jesse Himmelstein'
+
+SPEAKERS="$SPEAKERS and Raphael Goujet"
