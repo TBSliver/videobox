@@ -17,3 +17,6 @@ ROOM='aw1124'
 TITLE='An Introduction to Ada for Beginning and Experienced Programmers'
 SPEAKERS='Jean-Pierre Rosen'
 
+# LOST
+# NO CAM 
+# NO SLIDES

@@ -1,19 +1,18 @@
 OB_ID=4626
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=4961
+CAM_START=1360
+CAM_FILE='16-01-30_163715.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=20701
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_FILE='16-01-30_121252.ts'
+PRES_START=17040
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='aw1124'
 
 TITLE='Memory Management with Ada 2012'
 SPEAKERS='Jean-Pierre Rosen'
-

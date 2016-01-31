@@ -6,10 +6,10 @@ CAM_FILE=
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=2311
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_FILE='16-01-30_121252.ts'
+PRES_START=0
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='aw1124'
@@ -17,3 +17,6 @@ ROOM='aw1124'
 TITLE='Make with Ada - Small Projects to Have Fun with Ada! '
 SPEAKERS='Fabien Chouteau'
 
+# LOST 
+# NO VIDEO
+# PARTIAL

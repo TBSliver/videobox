@@ -17,3 +17,6 @@ ROOM='aw1124'
 TITLE='Arrival & Informal Discussions'
 SPEAKERS='Dirk Craeynest'
 
+# LOST
+# NO SLIDES
+# NO CAM

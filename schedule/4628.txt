@@ -17,3 +17,6 @@ ROOM='aw1124'
 TITLE='Informal Discussions & Closing'
 SPEAKERS='Dirk Craeynest'
 
+# LOST
+# NO VIDEO
+# NO SLIDES
