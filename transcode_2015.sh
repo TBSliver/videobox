@@ -13,6 +13,7 @@
 
 if [ ! -f finished/${OUT_FILE} ] ; then
 
+# Create background file with title embedded in it
 ffmpeg -y -i video/bg.jpg -filter_complex '[0:0]
   drawtext=expansion=none:borderw=2:fontcolor=#ffffff:fontfile=video/font/Light.otf:fontsize=16:x=0.5*lh:y=H-2.5*lh:textfile=video/copyright,
   drawtext=expansion=none:borderw=2:fontcolor=#ffffff:fontfile=video/font/Black.otf:fontsize=20:x=16:y=8:text='"$TITLE"',

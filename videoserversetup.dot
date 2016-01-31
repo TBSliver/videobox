@@ -4,20 +4,19 @@ digraph G {
 	node [shape=box];
 	fosbox_slides [label="slides videobox"];
 	fosbox_cam [label="camera videobox"];
-	live_server [label="live.fosdem.org"];
-	stream_server [label="stream-a.fosdem.org"];
+	live_server [label=<live.fosdem.org<br />149.210.147.206>];
+	stream_server [label=<stream-a.fosdem.org<br />104.155.24.128<br />google cloud>];
 	penta [label="penta.fosdem.org"];
 	video [label="video.fosdem.org"];
-	video_mirror1 [label="video mirror 1...n"];
-	venc0 [label="video encoder 0...n"];
+	video_mirror1 [label="video mirror 0...n"];
+	venc0 [label=<venc[0-n].fosdem.org<br />31.22.22.15[0-n]<br />Debian<br />Gerry @tigron>];
 
-	fosbox_slides -> stream_server [label = "DTSC protocol (DDVTech) push"];
-	fosbox_cam -> stream_server [label="DTSC protocol (DDVTech) push"];
+	fosbox_slides -> stream_server [label =<DTSC protocol (DDVTech) push<br />tcp 4200>];
+	fosbox_cam -> stream_server [label=<DTSC protocol (DDVTech) push<br />tcp 4200>];
 	stream_server -> live_server [label="embed video through html5 video element, flash, dash and/or rtsp"];
-	live_server -> stream_server [label="cutting info"];
+	live_server -> venc0 [label="cutting info"];
 	penta-> live_server [label="schedule XML"];
-	stream_server -> video [label="rsync over ssh?"];
+	stream_server -> venc0 [label="stream or dump separate unsliced cam and slide videos"];
 	video -> video_mirror1 [label="server@ knows"];
-	video -> venc0 [label="2 videos: separate sliced cam and slides videos"];
 	venc0 -> video [label="merged cam and slides video"];
 }
