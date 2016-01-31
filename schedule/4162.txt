@@ -17,3 +17,4 @@ ROOM='h1308'
 TITLE='Whats new in MySQL 5.7?'
 SPEAKERS='Norvald H. Ryeng'
 
+# LOST
