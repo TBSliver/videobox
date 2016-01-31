@@ -19,5 +19,4 @@ SPEAKERS='Paris Carbone'
 
 SPEAKERS="$SPEAKERS and Vasia Kalavri"
 
-# NO SLIDES
-# NO CAM
+# LOST
