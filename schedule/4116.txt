@@ -6,10 +6,10 @@ CAM_FILE=
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=5924
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_FILE=16-01-30_121138.ts
+PRES_START=4304
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='aw1120'
@@ -17,3 +17,4 @@ ROOM='aw1120'
 TITLE='DIY mobile usability testing'
 SPEAKERS='Belen Barros Pena'
 
+# NO CAM

@@ -17,3 +17,4 @@ ROOM='aw1120'
 TITLE='Design for All versus Design for One and Adaptive User Interfaces'
 SPEAKERS='Christophe Strobbe'
 
+# LOST
