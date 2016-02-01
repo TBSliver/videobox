@@ -56,7 +56,7 @@ inotifywait -m $MONITORPATH -e create -e moved_to | while read path action file;
 		let DURATION=${CAM_END}-${CAM_START}
 		#${ENCPPATH}/transcode_2016.sh --camera "$CAM_FILE" --cameraseek "$CAM_SEEK" --room "$ROOM" --slides "$PRES_FILE" --slidesseek "$PRES_SEEK"  --title "$TITLE_SANITISED" --speakers "$SPEAKERS_SANITISED" &
 		# we need to use the *_START variables instead of the _SEEK ones, as the seek ones are optional and not filled in
-		${ENCPPATH}/transcode_2016.sh --camera "${SRCPATH}/${ROOM}cam/${CAM_FILE}" --cameraseek "$CAM_START" --room "$ROOM" --slides "${SRCPATH}/${ROOM}slides/${PRES_FILE}" --slidesseek "$PRES_START"  --duration "$DURATION" --title "$TITLE_SANITISED" --speakers "$SPEAKERS_SANITISED" &
+		${ENCPATH}/transcode_2016.sh --camera "${SRCPATH}/${ROOM}cam/${CAM_FILE}" --cameraseek "$CAM_START" --room "$ROOM" --slides "${SRCPATH}/${ROOM}slides/${PRES_FILE}" --slidesseek "$PRES_START"  --duration "$DURATION" --title "$TITLE_SANITISED" --speakers "$SPEAKERS_SANITISED" &
 		# Don't remove while encoding!
 		# rm -rf $CAM_FILE $PRES_FILE
 		mv $MONITORPATH/$file $FINISHEDJOBS/ 
