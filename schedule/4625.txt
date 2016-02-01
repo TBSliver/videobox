@@ -2,7 +2,7 @@ OB_ID=4625
 
 CAM_END=11442
 CAM_START=9970
-CAM_FILE='16-01-30_134433.ts 0 16-01-30_163715.ts'
+CAM_FILE='16-01-30_134433.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
