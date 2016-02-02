@@ -1,15 +1,18 @@
 OB_ID=3527
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+#start time in cam: 682
+#different: slides is 136 later than cam
+
+CAM_END=1180
+CAM_START=682
+CAM_FILE='16-01-30_092139.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=1044
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_FILE='16-01-30_092355.ts'
+PRES_START=546
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='janson'
