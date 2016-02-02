@@ -27,10 +27,6 @@
 #  modify this to reflect your situation
 MONITORPATH='/home/fosdem/jobs/queue'
 FINISHEDJOBS='/home/fosdem/jobs/finished'
-# !!!
-# !!! REPLACE THIS WITH sunday FOR SUNDAY !!!
-# !!!
-SRCPATH='/home/fosdem/storage/saturday'
 TMP_DIR='/tmp'
 
 ENCPATH=`dirname "$0"`
@@ -54,6 +50,16 @@ inotifywait -m $MONITORPATH -e create -e moved_to | while read path action file;
 		# Wait until the downloads have finished
 		#wait
 		let DURATION=${CAM_END}-${CAM_START}
+		cam_time=`echo "${CAM_FILE}"|cut -d _ f 1`
+		if [ "$cam_time" = "16-01-30" ]; then
+			SRCPATH='/home/fosdem/storage/saturday'
+		elif [ "$cam_time" = "16-01-31" ]; then
+			SRCPATH='/home/fosdem/storage/sunday'
+		else
+			echo Unknown timestamp in job "$file", cam file "${CAM_FILE}"
+			mv $MONITORPATH/$file $FINISHEDJOBS/ 
+			continue
+		fi
 		#${ENCPPATH}/transcode_2016.sh --camera "$CAM_FILE" --cameraseek "$CAM_SEEK" --room "$ROOM" --slides "$PRES_FILE" --slidesseek "$PRES_SEEK"  --title "$TITLE_SANITISED" --speakers "$SPEAKERS_SANITISED" &
 		# we need to use the *_START variables instead of the _SEEK ones, as the seek ones are optional and not filled in
 		${ENCPATH}/transcode_2016.sh --camera "${SRCPATH}/${ROOM}cam/${CAM_FILE}" --cameraseek "$CAM_START" --room "$ROOM" --slides "${SRCPATH}/${ROOM}slides/${PRES_FILE}" --slidesseek "$PRES_START"  --duration "$DURATION" --title "$TITLE_SANITISED" --speakers "$SPEAKERS_SANITISED" &
