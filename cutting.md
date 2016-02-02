@@ -91,7 +91,7 @@ SPEAKERS='Jacob Sparre Andersen'
 ```
 
 There are two sets of fields you have to fill, for both the camera and the presenters stream:
-* CAM_FILE, PRES_FILE - the file name of the file this will be cut from
+* CAM_FILE, PRES_FILE - the file name of the file this will be cut from in single quotes
 * CAM_START, PRES_START - the beginning of the cut, in seconds from the start of the file
 * CAM_END, PRES_END - the end of the cut, in seconds from the start of the file
 
