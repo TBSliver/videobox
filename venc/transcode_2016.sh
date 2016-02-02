@@ -248,5 +248,5 @@ aevalsrc=0:d=1 [silence_post];
  -movflags +faststart ${OUT_DIR}/${ROOM}/${OUT_FILE}.mp4
 
 #compand=attacks=5:decays=10:volume=-20:points=-90/-90|-40/-20|0/-10:delay=5
-
+rm ${OUT_DIR}/${ROOM}/${OUT_FILE}.png
 fi
