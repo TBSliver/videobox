@@ -17,3 +17,4 @@ ROOM='h1309'
 TITLE='Automated Implementation of PCI-DSS compliant solution using open-source tools'
 SPEAKERS='Ján Lieskovský'
 
+#LOST

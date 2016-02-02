@@ -17,3 +17,5 @@ ROOM='h1309'
 TITLE='Security in IoT; more a cultural chock than a technical challenge'
 SPEAKERS='Dominig ar Foll'
 
+#LOST
+
