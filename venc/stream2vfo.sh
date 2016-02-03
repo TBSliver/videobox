@@ -50,7 +50,7 @@ inotifywait -m $MONITORPATH -e create -e moved_to | while read path action file;
 		# Wait until the downloads have finished
 		#wait
 		let DURATION=${CAM_END}-${CAM_START}
-		cam_time=`echo "${CAM_FILE}"|cut -d _ f 1`
+		cam_time=`echo "${CAM_FILE}"|cut -d _ -f 1`
 		if [ "$cam_time" = "16-01-30" ]; then
 			SRCPATH='/home/fosdem/storage/saturday'
 		elif [ "$cam_time" = "16-01-31" ]; then
