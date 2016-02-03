@@ -1,15 +1,15 @@
 OB_ID=3773
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=8389
+CAM_START=6677
+CAM_FILE='16-01-31_083724.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=8686
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_FILE='16-01-31_083227.ts'
+PRES_START=6974
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='aw1126'
