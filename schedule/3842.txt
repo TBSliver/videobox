@@ -18,3 +18,5 @@ TITLE='Foreign packages in GNU Guix'
 SPEAKERS='David Thompson'
 
 SPEAKERS="$SPEAKERS and Pjotr Prins"
+
+AUDIO=FR

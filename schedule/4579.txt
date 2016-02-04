@@ -17,3 +17,4 @@ ROOM='k3201'
 TITLE='Good news, everybody!  Guile 2.2 performance notes'
 SPEAKERS='Andy Wingo'
 
+AUDIO=FR
