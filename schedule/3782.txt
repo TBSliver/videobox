@@ -1,15 +1,16 @@
 OB_ID=3782
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=7906 # = 5761+65+2080
+CAM_START=5322
+CAM_FILE='16-01-31_083912.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+# Slides are 51 seconds late - substract it
+PRES_END=7855
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_FILE='16-01-31_084003.ts'
+PRES_START=5271
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='janson'
