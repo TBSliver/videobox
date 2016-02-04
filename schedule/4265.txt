@@ -17,3 +17,4 @@ ROOM='k3201'
 TITLE='LGSL: Numerical algorithms for Lua'
 SPEAKERS='Lesley De Cruz'
 
+AUDIO=FR

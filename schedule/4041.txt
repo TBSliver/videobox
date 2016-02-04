@@ -17,3 +17,4 @@ ROOM='k3201'
 TITLE='Guile Config'
 SPEAKERS='Alex Sassmannshausen'
 
+AUDIO=FR

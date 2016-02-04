@@ -17,3 +17,4 @@ ROOM='k3201'
 TITLE='Continuous Integration with Lua'
 SPEAKERS='Enrique García Cota'
 
+AUDIO=FR

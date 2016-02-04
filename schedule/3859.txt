@@ -17,3 +17,4 @@ ROOM='k3201'
 TITLE='Design and Implementation of the MoonGen Packet Generator'
 SPEAKERS='Paul Emmerich'
 
+AUDIO=FR
