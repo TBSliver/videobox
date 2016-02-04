@@ -244,7 +244,7 @@ aevalsrc=0:d=1 [silence_post];
 [preroll][silence_pre] [bg_pc][maina] [postroll][silence_post] concat=n=3:v=1:a=1 [outv][outa]' \
  -map '[outv]' -map '[outa]' \
  -pix_fmt yuv420p \
- -vcodec libx264 -crf 22 -threads 6 -preset ultrafast -acodec aac -aq 80 -strict -2 \
+ -vcodec libx264 -crf 22 -threads 6 -preset veryfast -acodec aac -aq 80 -strict -2 \
  -movflags +faststart ${OUT_DIR}/${ROOM}/${OUT_FILE}.mp4
 
 #compand=attacks=5:decays=10:volume=-20:points=-90/-90|-40/-20|0/-10:delay=5
