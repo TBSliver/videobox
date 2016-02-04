@@ -249,7 +249,7 @@ ffmpeg -y -loglevel verbose \
  -loop 1 -i video/postroll.jpg \
  -ss ${PRES_SEEK} -t ${DURATION} -i ${PRES_FILE} \
  -ss ${CAM_SEEK} -t ${DURATION} -i ${CAM_FILE}  \
--filter_complex '[0:0] setsar=1/1, trim=end=5 [preroll];
+-filter_complex "[0:0] setsar=1/1, trim=end=5 [preroll];
 [2:0] setsar=1/1, trim=end=5 [postroll];
 aevalsrc=0:d=1 [silence_pre];
 aevalsrc=0:d=1 [silence_post];
@@ -259,7 +259,7 @@ aevalsrc=0:d=1 [silence_post];
 [4:0] setpts=PTS-STARTPTS, scale=544:306:force_original_aspect_ratio=1 [cam];
 [bg_c][pres] overlay=x=0:y=64:eof_action=endall [bg_pc];
 [bg][cam] overlay=x=736:y=414 [bg_c];
-[preroll][silence_pre] [bg_pc][maina] [postroll][silence_post] concat=n=3:v=1:a=1 [outv][outa]' \
+[preroll][silence_pre] [bg_pc][maina] [postroll][silence_post] concat=n=3:v=1:a=1 [outv][outa]" \
  -map '[outv]' -map '[outa]' \
  -pix_fmt yuv420p \
  -vcodec libx264 -crf 22 -threads 6 -preset veryfast -acodec aac -aq 80 -strict -2 \
