@@ -17,4 +17,4 @@ ROOM='k3201'
 TITLE='Your distro is a Scheme library'
 SPEAKERS='Ludovic Courtès'
 
-AUDIO=FR
+AUDIO="FR-FL|FR-FR"

@@ -17,4 +17,5 @@ ROOM='k3201'
 TITLE='A gentle introduction to functional package management with GNU Guix'
 SPEAKERS='Ricardo Wurmus'
 
-AUDIO=FR
+AUDIO="FR-FL|FR-FR"
+

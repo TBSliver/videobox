@@ -17,4 +17,4 @@ ROOM='k3201'
 TITLE='elasticsearch-lua'
 SPEAKERS='Pablo Musa'
 
-AUDIO=FR
+AUDIO="FR-FL|FR-FR"

@@ -17,4 +17,4 @@ ROOM='k3201'
 TITLE='Hammerspoon'
 SPEAKERS='Peter van Dijk'
 
-AUDIO=FR
+AUDIO="FR-FL|FR-FR"

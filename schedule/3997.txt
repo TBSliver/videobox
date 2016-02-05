@@ -17,4 +17,4 @@ ROOM='k3201'
 TITLE='Web development in Lua'
 SPEAKERS='Etiene Dalcol'
 
-AUDIO=FR
+AUDIO="FR-FL|FR-FR"

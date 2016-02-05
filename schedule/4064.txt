@@ -17,4 +17,4 @@ ROOM='k3201'
 TITLE='How awesome ended up with Lua and not Guile'
 SPEAKERS='Julien Danjou'
 
-AUDIO=FR
+AUDIO="FR-FL|FR-FR"

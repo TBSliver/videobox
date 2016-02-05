@@ -19,4 +19,4 @@ SPEAKERS='David Thompson'
 
 SPEAKERS="$SPEAKERS and Pjotr Prins"
 
-AUDIO=FR
+AUDIO="FR-FL|FR-FR"

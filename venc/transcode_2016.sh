@@ -3,7 +3,7 @@
 verbose=0
 OUT_DIR='/home/fosdem/storage/rsync_to_video_fosdem_org'
 ROOMS=(aw1120 aw1121 aw1124 aw1125 aw1126 h1301 h1302 h1308 h1309 h2213 h2214 h2215 janson k1105 k3201 k3401 k4201 k4401 k4601 ua2114 ua2220 ub2252a ud2120 ud2218a)
-AUDIO=FL
+AUDIO="FL|FL" #Right channel: FR-FL|FR-FR
 
 while :; do
     case $1 in
@@ -253,7 +253,7 @@ ffmpeg -y -loglevel verbose \
 [2:0] setsar=1/1, trim=end=5 [postroll];
 aevalsrc=0:d=1 [silence_pre];
 aevalsrc=0:d=1 [silence_post];
-[4:1] asetpts=PTS-STARTPTS, channelmap=map=${AUDIO}|${AUDIO} [maina];
+[4:1] asetpts=PTS-STARTPTS, channelmap=map=${AUDIO} [maina];
 [1:0] setsar=1/1, setpts=PTS-STARTPTS [bg];
 [3:0] setpts=PTS-STARTPTS, scale=800:450 [pres];
 [4:0] setpts=PTS-STARTPTS, scale=544:306:force_original_aspect_ratio=1 [cam];
