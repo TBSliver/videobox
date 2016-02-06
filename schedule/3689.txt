@@ -1,15 +1,15 @@
 OB_ID=3689
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=4937
+CAM_START=2385
+CAM_FILE='16-01-30_140119.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=1899
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_FILE='16-01-30_145157.ts'
+PRES_START=-653
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='ua2220'
@@ -18,3 +18,5 @@ TITLE='Jenkins as a Code'
 SPEAKERS='Łukasz Szczęsny'
 
 SPEAKERS="$SPEAKERS and Marcin Zajączkowski"
+
+# Missing start
