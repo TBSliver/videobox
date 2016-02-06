@@ -18,5 +18,5 @@ TITLE='Make with Ada - Small Projects to Have Fun with Ada! '
 SPEAKERS='Fabien Chouteau'
 
 # LOST 
+# NO CAM
 # NO VIDEO
-# PARTIAL

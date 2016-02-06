@@ -1,15 +1,15 @@
 OB_ID=4621
 
-CAM_END=2672
-CAM_START=741
+CAM_END=2560
+CAM_START=750
 CAM_FILE='16-01-30_134433.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=8161
+PRES_END=8061
 PRES_SEEK=0 #optional
 PRES_FILE='16-01-30_121252.ts'
-PRES_START=6230
+PRES_START=6261
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='aw1124'
@@ -18,3 +18,4 @@ TITLE='Informal Discussions'
 SPEAKERS='Dirk Craeynest'
 
 # NO SLIDES
+AUDIO="FR-FL|FR-FR"
