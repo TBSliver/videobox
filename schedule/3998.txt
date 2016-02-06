@@ -1,19 +1,21 @@
 OB_ID=3998
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=4092
+CAM_START=3014
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=20064
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=18986
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2215'
 
 TITLE='Movim - The Kickass Social Network'
 SPEAKERS='Timothée Jaussoin'
+
+AUDIO="FR-FL|FR-FR"
+CAM_FILE='16-01-30_164634.ts'
+PRES_FILE='16-01-30_122022.ts'
 

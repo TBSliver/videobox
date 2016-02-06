@@ -1,15 +1,13 @@
 OB_ID=4033
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=1923
+CAM_START=1011
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=17895
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=16983
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2215'
@@ -19,3 +17,8 @@ SPEAKERS='Grégoire VINCKE'
 
 SPEAKERS="$SPEAKERS and Raphaël Marée"
 SPEAKERS="$SPEAKERS and Renaud Hoyoux"
+
+AUDIO="FR-FL|FR-FR"
+CAM_FILE='16-01-30_164634.ts'
+PRES_FILE='16-01-30_122022.ts'
+

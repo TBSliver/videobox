@@ -1,19 +1,20 @@
 OB_ID=3797
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=750
+CAM_START=3
+CAM_FILE='16-01-30_164634.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=16722
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_FILE='16-01-30_122022.ts'
+PRES_START=15975
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2215'
 
 TITLE='Aversive++'
 SPEAKERS='Loïc Dauphin'
+#PARTIAL
 
