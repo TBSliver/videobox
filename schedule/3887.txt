@@ -8,7 +8,7 @@ CAM_STREAM='https://stream-a.fosdem.org/'
 
 PRES_END=
 PRES_SEEK=0 #optional
-PRES_FILE='16-01-30_145157.ts'
+PRES_FILE=
 PRES_START=
 PRES_STREAM='https://stream-a.fosdem.org/'
 
