@@ -1,14 +1,14 @@
 OB_ID=3887
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=1730
+CAM_START=0
+CAM_FILE='16-01-30_140119.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
 PRES_END=
 PRES_SEEK=0 #optional
-PRES_FILE=
+PRES_FILE='16-01-30_145157.ts'
 PRES_START=
 PRES_STREAM='https://stream-a.fosdem.org/'
 
@@ -18,3 +18,6 @@ TITLE='Testing complex software in CI'
 SPEAKERS='Andreas Schneider'
 
 SPEAKERS="$SPEAKERS and Jakub Hrozek"
+
+# PARTIAL
+# NOSLIDES

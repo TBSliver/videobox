@@ -17,3 +17,4 @@ ROOM='ua2220'
 TITLE='Testing embedded systems'
 SPEAKERS='Itamar Hassin'
 
+# LOST
