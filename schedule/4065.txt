@@ -1,19 +1,21 @@
 OB_ID=4065
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=6833
+CAM_START=5867
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=6824
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=5858
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2215'
 
 TITLE='Prometheus -  A Next Generation Monitoring System'
 SPEAKERS='Brian Brazil'
+
+AUDIO="FR-FL|FR-FR"
+CAM_FILE='16-01-31_114158.ts'
+PRES_FILE='16-01-31_114207.ts'
 

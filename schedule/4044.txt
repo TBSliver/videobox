@@ -1,19 +1,21 @@
 OB_ID=4044
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=6877
+CAM_START=6257
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=897
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=277
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2215'
 
 TITLE='Buildtime Trend : visualise whats trending in your build process'
 SPEAKERS='Dieter Adriaenssens'
+
+AUDIO="FR-FL|FR-FR"
+CAM_FILE='16-01-31_083532.ts'
+PRES_FILE='16-01-31_101512.ts'
 

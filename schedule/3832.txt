@@ -1,19 +1,21 @@
 OB_ID=3832
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=9755
+CAM_START=8682
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=3775
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=2702
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2215'
 
 TITLE='coala - Code Analysis Made Simple'
 SPEAKERS='Lasse Schuirmann'
+
+AUDIO="FR-FL|FR-FR"
+CAM_FILE='16-01-31_083532.ts'
+PRES_FILE='16-01-31_101512.ts'
 
