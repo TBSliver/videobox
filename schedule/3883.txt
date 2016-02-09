@@ -1,19 +1,21 @@
 OB_ID=3883
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=17610
+CAM_START=14907
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=16467
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=13764
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='k1105'
 
 TITLE='Micro-datacenter with Raspberry Pi and Kubernetes'
 SPEAKERS='Ray Tsang'
+
+CAM_FILE='16-01-31_095354.ts'
+PRES_FILE='16-01-31_101257.ts'
+AUDIO="FR-FL|FR-FR"
 
