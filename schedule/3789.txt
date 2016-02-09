@@ -1,19 +1,21 @@
 OB_ID=3789
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=11593
+CAM_START=10726
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=11584
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=10717
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2215'
 
 TITLE='Snowdrift.coop - sustainable funding for FLO projects'
 SPEAKERS='William Hale (Salt)'
+
+AUDIO="FR-FL|FR-FR"
+CAM_FILE='16-01-31_114158.ts'
+PRES_FILE='16-01-31_114207.ts'
 

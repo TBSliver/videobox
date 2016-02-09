@@ -1,15 +1,15 @@
 OB_ID=4622
 
-CAM_END=3959
-CAM_START=2903
+CAM_END=3943
+CAM_START=2904
 CAM_FILE='16-01-30_134433.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=9381
+PRES_END=9343
 PRES_SEEK=0 #optional
 PRES_FILE='16-01-30_121252.ts'
-PRES_START=8325
+PRES_START=9444
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='aw1124'
@@ -17,3 +17,4 @@ ROOM='aw1124'
 TITLE='Heterogeneous Parallel Computing with Ada Tasking'
 SPEAKERS='Jan Verschelde'
 
+AUDIO="FR-FL|FR-FR"

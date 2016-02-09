@@ -6,10 +6,10 @@ CAM_FILE=16-01-30_122230.ts
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=4565
+PRES_END=4555
 PRES_SEEK=0 #optional
 PRES_FILE=16-01-30_122211.ts
-PRES_START=3647
+PRES_START=3637
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='k3201'
@@ -17,3 +17,4 @@ ROOM='k3201'
 TITLE='Guile Config'
 SPEAKERS='Alex Sassmannshausen'
 
+AUDIO="FR-FL|FR-FR"

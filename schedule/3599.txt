@@ -1,19 +1,21 @@
 OB_ID=3599
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=25381
+CAM_START=21897
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=24238
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=20754
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='k1105'
 
 TITLE='Baobáxia - the Galaxy of Baobab Trees'
 SPEAKERS='Carsten Agger'
+
+CAM_FILE='16-01-31_095354.ts'
+PRES_FILE='16-01-31_101257.ts'
+AUDIO="FR-FL|FR-FR"
 

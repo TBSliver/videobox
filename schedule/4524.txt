@@ -1,19 +1,21 @@
 OB_ID=4524
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=16408
+CAM_START=15472
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=16399
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=15463
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2215'
 
 TITLE='Introduction to Augmented Reality'
 SPEAKERS='Aurelijus Banelis'
+
+AUDIO="FR-FL|FR-FR"
+CAM_FILE='16-01-31_114158.ts'
+PRES_FILE='16-01-31_114207.ts'
 

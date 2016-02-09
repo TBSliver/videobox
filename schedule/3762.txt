@@ -1,15 +1,15 @@
 OB_ID=3762
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=14825
+CAM_START=13806
+CAM_FILE=16-01-30_145734.ts
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=24148
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_FILE=16-01-30_122211.ts
+PRES_START=23129
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='k3201'
@@ -17,3 +17,4 @@ ROOM='k3201'
 TITLE='Tarantool: an in-memory NoSQL database and execution grid'
 SPEAKERS='Konstantin Osipov'
 
+AUDIO="FR-FL|FR-FR"

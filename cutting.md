@@ -113,6 +113,12 @@ From this point on, I'll use C as the start of a cam file (timestamp), P as the 
 
 Note that as the cam files contain the actual audio of the talk, which is most of the useful information in it, they take precedence.
 
+Listen to the audio on a stereo headphone. If the LEFT channel contains the best audio, do nothing and continue. However, if the RIGHT channel contains the best audio, add a line
+```
+AUDIO="FR-FL|FR-FR"
+```
+to the file (this maps the Front Right channel to both Front Right and Front Left). Mapping both to the left channel is the default.
+
 Now, there are a few cases for each talk. Please note that in all cases CAM_END-CAM_START has to be equal to PRES_END-PRES_START:
 
 * Best case scenario - a talk fits in one cam and one pres file. In this case, we watch the cam file, note the start and end of it, and write them to the CAM_START and CAM_END parameters. Then, we write the PRES_START and PRES_END parameters by adding the difference that we calculated before.

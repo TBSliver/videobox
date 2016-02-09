@@ -1,19 +1,21 @@
 OB_ID=3566
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=12340
+CAM_START=9601
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=12315
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=9576
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='k1105'
 
 TITLE='Rspamd - fast opensource spam filter'
 SPEAKERS='Vsevolod Stakhov'
+
+CAM_FILE='16-01-30_122126.ts'
+PRES_FILE='16-01-30_122151.ts'
+AUDIO="FR-FL|FR-FR"
 

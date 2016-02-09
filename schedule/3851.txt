@@ -1,8 +1,8 @@
 OB_ID=3851
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=6100
+CAM_START=5023
+CAM_FILE='16-01-31_083532.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
@@ -16,4 +16,7 @@ ROOM='h2215'
 
 TITLE='A New Patchwork'
 SPEAKERS='Stephen Finucane'
+AUDIO="FR-FL|FR-FR"
+
+#NOSLIDES
 

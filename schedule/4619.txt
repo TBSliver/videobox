@@ -17,3 +17,6 @@ ROOM='aw1124'
 TITLE='Adopting an Ada Program - the Experience of Whitakers Words '
 SPEAKERS='Martin Keegan'
 
+# LOST
+# NO VIDEO
+# NO SOUND

@@ -1,19 +1,21 @@
 OB_ID=4097
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=8309
+CAM_START=7368
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=2329
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=1388
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2215'
 
 TITLE='Learning about software development with Kibana dashboards'
 SPEAKERS='Jesus M. Gonzalez-Barahona'
+
+AUDIO="FR-FL|FR-FR"
+CAM_FILE='16-01-31_083532.ts'
+PRES_FILE='16-01-31_101512.ts'
 

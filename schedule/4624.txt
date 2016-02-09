@@ -1,15 +1,15 @@
 OB_ID=4624
 
-CAM_END=9748
+CAM_END=9750
 CAM_START=8234
 CAM_FILE='16-01-30_134433.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=15167
+PRES_END=15251
 PRES_SEEK=0 #optional
 PRES_FILE='16-01-30_121252.ts'
-PRES_START=13653
+PRES_START=13735
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='aw1124'
@@ -17,3 +17,4 @@ ROOM='aw1124'
 TITLE='Controlling a Train Model with GNAT GPL for Raspberry Pi 2 '
 SPEAKERS='Tristan Gingold'
 
+AUDIO="FR-FL|FR-FR"

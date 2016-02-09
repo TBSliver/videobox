@@ -1,15 +1,15 @@
 OB_ID=4625
 
-CAM_END=11442
+CAM_END=11445
 CAM_START=9970
 CAM_FILE='16-01-30_134433.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END='16983'
+PRES_END=16946
 PRES_SEEK=0 #optional
 PRES_FILE='16-01-30_121252.ts'
-PRES_START='15511'
+PRES_START=15471
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='aw1124'
@@ -17,3 +17,4 @@ ROOM='aw1124'
 TITLE='CrazyFlie Drone Software in SPARK Ada'
 SPEAKERS='Tristan Gingold'
 
+AUDIO="FR-FL|FR-FR"

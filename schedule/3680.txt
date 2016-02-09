@@ -1,19 +1,21 @@
 OB_ID=3680
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=936
+CAM_START=10
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=927
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=1
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2215'
 
 TITLE='Keeping your files safe in the post-Snowden era with SXFS'
 SPEAKERS='Robert Wojciechowski'
+
+AUDIO="FR-FL|FR-FR"
+CAM_FILE='16-01-31_114158.ts'
+PRES_FILE='16-01-31_114207.ts'
 

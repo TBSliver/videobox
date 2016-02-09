@@ -16,4 +16,5 @@ ROOM='h2215'
 
 TITLE='Why develop eco-conscious Libre Hardware?'
 SPEAKERS='Luke Kenneth Casson Leighton'
+#LOST
 

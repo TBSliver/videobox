@@ -1,15 +1,13 @@
 OB_ID=4094
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=6980
+CAM_START=4011
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=5837
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=2868
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='k1105'
@@ -18,3 +16,7 @@ TITLE='Building a peer-to-peer network for Real-Time Communication'
 SPEAKERS='Adrien Béraud'
 
 SPEAKERS="$SPEAKERS and Guillaume Roguez"
+CAM_FILE='16-01-31_095354.ts'
+PRES_FILE='16-01-31_101257.ts'
+AUDIO="FR-FL|FR-FR"
+

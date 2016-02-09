@@ -1,19 +1,21 @@
 OB_ID=4060
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=7985
+CAM_START=7067
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=7976
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=7058
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2215'
 
 TITLE='Going cross-platform - how htop was made portable'
 SPEAKERS='Hisham Muhammad'
+
+AUDIO="FR-FL|FR-FR"
+CAM_FILE='16-01-31_114158.ts'
+PRES_FILE='16-01-31_114207.ts'
 

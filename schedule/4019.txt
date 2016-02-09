@@ -1,19 +1,22 @@
 OB_ID=4019
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=5136
+CAM_START=4301
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=21108
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=20273
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2215'
 
 TITLE='Mail2Voice Next - the future of an accessible email client'
 SPEAKERS='Matthieu Hazon'
+
+
+AUDIO="FR-FL|FR-FR"
+CAM_FILE='16-01-30_164634.ts'
+PRES_FILE='16-01-30_122022.ts'
 

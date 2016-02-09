@@ -6,10 +6,10 @@ CAM_FILE='16-01-30_134433.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=13366
+PRES_END=13380
 PRES_SEEK=0 #optional
 PRES_FILE='16-01-30_121252.ts'
-PRES_START=9995
+PRES_START=10009
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='aw1124'
@@ -17,3 +17,4 @@ ROOM='aw1124'
 TITLE='Micro- and Macro-Optimizing a Distributed System'
 SPEAKERS='Philippe Waroquiers'
 
+AUDIO="FR-FL|FR-FR"

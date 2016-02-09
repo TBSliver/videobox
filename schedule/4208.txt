@@ -18,3 +18,5 @@ TITLE='Testing interoperability with closed-source software through scriptable d
 SPEAKERS='Karl Trygve Kalleberg'
 
 SPEAKERS="$SPEAKERS and Ole André Vadla Ravnås"
+
+# LOST

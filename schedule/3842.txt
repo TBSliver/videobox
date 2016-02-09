@@ -1,15 +1,15 @@
 OB_ID=3842
 
-CAM_END=4193
+CAM_END=3493
 CAM_START=2347
 CAM_FILE=16-01-30_122230.ts
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=4222
+PRES_END=3512
 PRES_SEEK=0 #optional
 PRES_FILE=16-01-30_122211.ts
-PRES_START=2376
+PRES_START=2366
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='k3201'
@@ -18,3 +18,5 @@ TITLE='Foreign packages in GNU Guix'
 SPEAKERS='David Thompson'
 
 SPEAKERS="$SPEAKERS and Pjotr Prins"
+
+AUDIO="FR-FL|FR-FR"

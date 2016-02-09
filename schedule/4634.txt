@@ -18,3 +18,5 @@ TITLE='The GNU Guile Project'
 SPEAKERS='Andy Wingo'
 
 SPEAKERS="$SPEAKERS and Ludovic Courtès"
+
+# LOST
