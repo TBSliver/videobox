@@ -1,19 +1,21 @@
 OB_ID=3777
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=5915
+CAM_START=2912
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=5890
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=2887
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='k1105'
 
 TITLE='Vulkan in Open-Source'
 SPEAKERS='Jason Ekstrand'
+
+CAM_FILE='16-01-30_122126.ts'
+PRES_FILE='16-01-30_122151.ts'
+AUDIO="FR-FL|FR-FR"
 

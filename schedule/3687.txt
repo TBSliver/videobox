@@ -16,4 +16,5 @@ ROOM='k1105'
 
 TITLE='Digital Hardware Design: Why is it still so hard?'
 SPEAKERS='Philipp Wagner'
+# LOST
 
