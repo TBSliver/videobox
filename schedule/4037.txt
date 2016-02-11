@@ -17,3 +17,5 @@ ROOM='h2215'
 TITLE='Java with syslog-ng'
 SPEAKERS='Viktor Juhász'
 
+#LOST
+
