@@ -1,19 +1,20 @@
 OB_ID=4503
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=1446
+CAM_START=570
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=1425
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=549
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2214'
 
 TITLE='Adding subtitles to the dash.js player'
 SPEAKERS='Solène Buet'
+
+CAM_FILE='16-01-30_121942.ts'
+PRES_FILE='16-01-30_122003.ts'
 

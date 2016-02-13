@@ -1,8 +1,8 @@
 OB_ID=4537
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=1297
+CAM_START=0
+CAM_FILE='cloud_transcoding.mp4'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
@@ -16,4 +16,6 @@ ROOM='h2214'
 
 TITLE='Cloud Transcoding Architecture with FFMPEG; Scale and Distribution with Kaltura Transcoding'
 SPEAKERS='Jess Portnoy'
+
+#NOSLIDES
 

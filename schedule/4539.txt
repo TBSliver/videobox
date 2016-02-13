@@ -1,19 +1,20 @@
 OB_ID=4539
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=19781
+CAM_START=18709
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=19760
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=18688
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2214'
 
 TITLE='Develop your own media portal'
 SPEAKERS='Rotem Haber'
+
+CAM_FILE='16-01-30_121942.ts'
+PRES_FILE='16-01-30_122003.ts'
 

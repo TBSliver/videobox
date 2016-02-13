@@ -1,19 +1,20 @@
 OB_ID=4228
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=21721
+CAM_START=20292
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=21700
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=20271
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2214'
 
 TITLE='i-score'
 SPEAKERS='Jean-Michaël Celerier'
+
+CAM_FILE='16-01-30_121942.ts'
+PRES_FILE='16-01-30_122003.ts'
 

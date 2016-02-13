@@ -1,8 +1,8 @@
 OB_ID=4271
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=1517
+CAM_START=0
+CAM_FILE='restored_7.mp4'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
@@ -16,4 +16,6 @@ ROOM='h2214'
 
 TITLE='Whats new in VLC and libVLC?'
 SPEAKERS='Jean-Baptiste Kempf'
+
+#NOSLIDES
 

@@ -1,19 +1,20 @@
 OB_ID=4274
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=12440
+CAM_START=11388
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=12419
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=11367
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2214'
 
 TITLE='Broadcast-to-IP conversion for Wifi indoor coverage'
 SPEAKERS='Alexandru Munteanu'
+
+CAM_FILE='16-01-30_121942.ts'
+PRES_FILE='16-01-30_122003.ts'
 

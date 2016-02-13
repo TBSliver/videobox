@@ -1,15 +1,13 @@
 OB_ID=4151
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=3766
+CAM_START=2397
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=3745
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_START=2376
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2214'
@@ -18,3 +16,7 @@ TITLE='GPAC/MP4Box.js'
 SPEAKERS='Cyril Concolato'
 
 SPEAKERS="$SPEAKERS and Romain Bouqueau"
+
+CAM_FILE='16-01-30_121942.ts'
+PRES_FILE='16-01-30_122003.ts'
+
