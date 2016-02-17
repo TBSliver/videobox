@@ -1,15 +1,15 @@
 OB_ID=4137
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=5428
+CAM_START=3298
+CAM_FILE='16-01-31_091244.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=7712
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_FILE='16-01-31_083440.ts'
+PRES_START=5579
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2213'
