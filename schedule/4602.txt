@@ -2,13 +2,13 @@ OB_ID=4602
 
 CAM_END=23067
 CAM_START=21737
-CAM_FILE='16-01-31_114156.ts'
+CAM_FILE='16-01-31_083339.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
 PRES_END=22951
 PRES_SEEK=0 #optional
-PRES_FILE='16-01-31_114200.ts'
+PRES_FILE='16-01-31_083441.ts'
 PRES_START=21621
 PRES_STREAM='https://stream-a.fosdem.org/'
 
