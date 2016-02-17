@@ -3,14 +3,14 @@ OB_ID=3971
 
 CAM_END=11850
 CAM_START=0
-CAM_FILE='16-01-31_121855.ts'
+CAM_FILE='16-01-31_122022.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
 PRES_END=11848
 PRES_SEEK=0 #optional
 PRES_FILE='16-01-30_121820.ts'
-PRES_START=-2
+PRES_START=-122
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2213'
