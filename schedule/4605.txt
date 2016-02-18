@@ -14,6 +14,6 @@ PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2214'
 
-TITLE='Perl 6'
+TITLE='Perl 6 - The End of the Beginning'
 SPEAKERS='Elizabeth Mattijsen'
 
