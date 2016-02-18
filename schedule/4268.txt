@@ -1,15 +1,15 @@
 OB_ID=4268
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=7881
+CAM_START=6741
+CAM_FILE='16-01-31_083225.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=1842
+PRES_START=702
+PRES_FILE='16-01-31_101304.ts'
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='aw1125'
@@ -17,3 +17,4 @@ ROOM='aw1125'
 TITLE='Building Self-Optimizing Radios using DEAP'
 SPEAKERS='Andre Puschmann'
 
+AUDIO="FR-FL|FR-FR"

@@ -1,15 +1,15 @@
 OB_ID=3966
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=6606
+CAM_START=5700
+CAM_FILE='16-01-31_083225.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=567
+PRES_START=-339
+PRES_FILE='16-01-31_101304.ts'
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='aw1125'
@@ -17,3 +17,6 @@ ROOM='aw1125'
 TITLE='Signal Intelligence Challenges'
 SPEAKERS='Felix Wunsch'
 
+#PARTIAL
+
+AUDIO="FR-FL|FR-FR"
