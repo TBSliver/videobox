@@ -1,15 +1,15 @@
 OB_ID=4358
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=25658
+CAM_START=24198
+CAM_FILE='16-01-31_083225.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=19619
+PRES_START=18159
+PRES_FILE='16-01-31_101304.ts'
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='aw1125'
@@ -17,3 +17,4 @@ ROOM='aw1125'
 TITLE='Prototyping the 5G Air Interface in GNU Radio: An FBMC Primer'
 SPEAKERS='Milan Zivkovic'
 
+AUDIO="FR-FL|FR-FR"

@@ -1,15 +1,12 @@
 OB_ID=4343
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=5560
+CAM_START=4295
+CAM_FILE='16-01-31_083225.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='aw1125'
@@ -17,3 +14,5 @@ ROOM='aw1125'
 TITLE='The GNU Radio Toolkit'
 SPEAKERS='Martin Braun'
 
+AUDIO="FR-FL|FR-FR"
+#NOSLIDES

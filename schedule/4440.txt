@@ -1,15 +1,15 @@
 OB_ID=4440
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=16778
+CAM_START=13923
+CAM_FILE='16-01-31_083225.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=10739
+PRES_START=7884
+PRES_FILE='16-01-31_101304.ts'
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='aw1125'
@@ -19,3 +19,5 @@ SPEAKERS='Paul Sutton'
 
 SPEAKERS="$SPEAKERS and Sylvain Munaut"
 SPEAKERS="$SPEAKERS and Tom Rondeau"
+
+AUDIO="FR-FL|FR-FR"
