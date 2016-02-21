@@ -1,15 +1,16 @@
+#PARTIAL
 OB_ID=4458
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=149
+CAM_START=0
+CAM_FILE='16-01-30_122704.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=169
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_FILE='16-01-30_122644.ts'
+PRES_START=20
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='k4601'
