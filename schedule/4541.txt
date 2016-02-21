@@ -1,8 +1,9 @@
+#NOSLIDES
 OB_ID=4541
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=1187
+CAM_START=200
+CAM_FILE='16-01-30_123144.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
