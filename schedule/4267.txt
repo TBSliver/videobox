@@ -1,16 +1,16 @@
-#incomplete
+#PARTIAL
 OB_ID=4267
 
 CAM_END=2665
-CAM_START=27
+CAM_START=0
 CAM_FILE='16-01-30_121227.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=2665
+PRES_END=2692
 PRES_SEEK=0 #optional
 PRES_FILE='16-01-30_121200.ts'
-PRES_START=0
+PRES_START=27
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='aw1121'
