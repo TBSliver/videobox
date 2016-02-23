@@ -89,6 +89,8 @@ Everything else can be left as-is, but __you may need to add some extra lines__:
 * For partial footage put `#PARTIAL`  (`#NOSLIDES` is automatically marked as partial already)
 * If the RIGHT audio channel contains the best audio, add a line `AUDIO="FR-FL|FR-FR"`. For the LEFT channel, add nothing.
 
+To find the right files to edit, run `grep -A 2 k1105 schedule/ | grep TITLE` (replace k1105 with your chosen room name).
+
 Cutting process
 ---------------
 
@@ -106,10 +108,29 @@ Take the difference between the cam and slides start times and make note of it. 
 Please note that in all cases CAM_END-CAM_START has to be equal to PRES_END-PRES_START.
 
 * Best case scenario - a talk fits in one cam and one pres file. In this case, we watch the cam file, note the start and end of it, and write them to the CAM_START and CAM_END parameters. Then, we write the PRES_START and PRES_END parameters by adding or subtracting the difference that we calculated before.
-* The pres starts a bit after the cam (and there is no other pres file) - then we start the cam at -TD (that's minus TD) and the pres file at 0, and adjust accordingly. Also add a line saying `#PARTIAL` to indicate partial footage.
-* The reverse works the same, but then the PRES_START is negative, instead.
+* The pres starts a bit after the cam (and there is no other pres file) - then we start the cam at 0 and the pres file at -TD (the negative difference) to adjust accordingly. Also add a line saying `#PARTIAL` to indicate partial footage.
+* The reverse works the same, but then the CAM_START is negative, instead.
 * Either cam or slides is split over multiple files. This is what the stitching script is for. It will create a new file that contains all the footage of the separate files you feed the script, with correctly timed black sections in between to fill in the gaps. As filename, use the FIRST filename from the to-be-stitched footage, and pretend it contains all material without break. If you have trouble with the math for this, simply let the stitching script do the stitch encode locally and use the times from the resulting file. __Make sure to note in the piratepad in the section "WAITING MERGES:" which files need to be merged.__
 
 When done with a room-day, note it as `DONE` in the piratepad. Then: wash, rinse, repeat.
 
-Confused? Look at examples from rooms that have already been cut.
+Confused? Look at some of the existing files that have already been completed (i.e. find them by looking at previous git commits or with grep) if you're not sure what the files should look like. Alternatively, ask for help in #fosdem-video on freenode.
+
+
+Encoding instructions
+---------------------
+To update status: run update_all.sh from the repo on your own machine.
+To queue easily: (replace aw1125 with room name):
+```
+(for i in `grep -l aw1125 *`; do if grep LOST $i > /dev/null || grep -E '^CAM_END=$' $i >/dev/null; then continue; fi; echo $i  ; done ) | xargs echo
+```
+Then cp the listed files to ~/jobs/queue/
+
+To print only Sunday:
+```
+(for i in `grep -l aw1125 *`; do if grep LOST $i > /dev/null || grep "01-30" $i > /dev/null || grep -E '^CAM_END=$' $i >/dev/null; then continue; fi; echo $i  ; done ) | xargs echo
+```
+Saturday:
+```
+(for i in `grep -l aw1125 *`; do if grep LOST $i > /dev/null || grep "01-31" $i > /dev/null || grep -E '^CAM_END=$' $i >/dev/null; then continue; fi; echo $i  ; done ) | xargs echo
+```
