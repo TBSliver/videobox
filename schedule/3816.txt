@@ -1,15 +1,15 @@
 OB_ID=3816
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=1266
+CAM_START=0
+CAM_FILE='restored_8.mp4'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=16241
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_FILE='16-01-30_122003.ts'
+PRES_START=14975
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2214'
