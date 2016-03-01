@@ -11,6 +11,8 @@ for i in `grep -l "ROOM='${ROOM}'" ~/videobox/schedule/*`; do
 
   TITLE=$(grep TITLE $i);
 
+  if grep WEBMONLY $i > /dev/null; then echo "OK: ${TITLE:6}"; continue; fi
+  
   if grep NOAUDIO $i > /dev/null; then echo "LOST: (no audio) ${TITLE:6}"; continue; fi
   if grep LOST $i > /dev/null; then echo "LOST: ${TITLE:6}"; continue; fi
   if grep NOSLIDES $i > /dev/null; then echo "PARTIAL: (no slides) ${TITLE:6}"; continue; fi
