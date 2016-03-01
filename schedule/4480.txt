@@ -16,4 +16,4 @@ ROOM='k4601'
 
 TITLE='Hurd, Rump kernel, sound, and USB'
 SPEAKERS='Samuel Thibault'
-
+#NOAUDIO

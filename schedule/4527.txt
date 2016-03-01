@@ -1,19 +1,20 @@
 OB_ID=4527
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=3926
+CAM_START=1755
+CAM_FILE='16-01-31-083557.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=3943
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_FILE='16-01-31_083540.ts'
+PRES_START=1771
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='k4601'
 
 TITLE='EdgeBSD: Status report'
 SPEAKERS='Pierre Pronchery'
+#NOAUDIO
 
