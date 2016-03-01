@@ -261,7 +261,7 @@ aevalsrc=0:d=1 [silence_post];
 [3:1] asetpts=PTS-STARTPTS, channelmap=map=${AUDIO} [maina];
 [1:0] setsar=1/1, setpts=PTS-STARTPTS [bg];
 [3:0] setpts=PTS-STARTPTS, scale=800:450:force_original_aspect_ratio=1 [cam];
-[bg][cam] overlay=x=0:y=64 [bg_pc];
+[bg][cam] overlay=x=0:y=64:eof_action=endall [bg_pc];
 [preroll][silence_pre] [bg_pc][maina] [postroll][silence_post] concat=n=3:v=1:a=1 [outv][outa]" \
  -map '[outv]' -map '[outa]' \
  -pix_fmt yuv420p \
@@ -285,7 +285,7 @@ aevalsrc=0:d=1 [silence_post];
 [3:0] setpts=PTS-STARTPTS, scale=800:450 [pres];
 [4:0] setpts=PTS-STARTPTS, scale=544:306:force_original_aspect_ratio=1 [cam];
 [bg_c][pres] overlay=x=0:y=64:eof_action=endall [bg_pc];
-[bg][cam] overlay=x=736:y=414 [bg_c];
+[bg][cam] overlay=x=736:y=414:eof_action=endall [bg_c];
 [preroll][silence_pre] [bg_pc][maina] [postroll][silence_post] concat=n=3:v=1:a=1 [outv][outa]" \
  -map '[outv]' -map '[outa]' \
  -pix_fmt yuv420p \
