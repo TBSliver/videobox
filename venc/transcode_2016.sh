@@ -198,10 +198,13 @@ if [ -z "$ROOM" ]; then
     printf 'ERROR: option "--room" not given. See --help.\n' >&2
     exit 1
 fi
-if [ -z "$PRES_FILE" ]; then
-    printf 'ERROR: option "--slides" not given. See --help.\n' >&2
-    exit 1
-fi
+
+#
+#if [ -z "$PRES_FILE" ]; then
+#    printf 'ERROR: option "--slides" not given. See --help.\n' >&2
+#    exit 1
+#fi
+
 if [ -z "$SPEAKERS" ]; then
     printf 'ERROR: option "--speakers" not given. See --help.\n' >&2
     exit 1
@@ -243,6 +246,30 @@ ffmpeg -y -i video/bg.jpg -filter_complex '[0:0]
 
 sleep 1
 
+
+if [ -z "$PRES_FILE" ]; then
+
+ffmpeg -y -loglevel verbose \
+ -loop 1 -i video/preroll.jpg \
+ -loop 1 -i ${OUT_DIR}/${ROOM}/${OUT_FILE}.png \
+ -loop 1 -i video/postroll.jpg \
+ -ss ${CAM_SEEK} -t ${DURATION} -i ${CAM_FILE}  \
+-filter_complex "[0:0] setsar=1/1, trim=end=5 [preroll];
+[2:0] setsar=1/1, trim=end=5 [postroll];
+aevalsrc=0:d=1 [silence_pre];
+aevalsrc=0:d=1 [silence_post];
+[3:1] asetpts=PTS-STARTPTS, channelmap=map=${AUDIO} [maina];
+[1:0] setsar=1/1, setpts=PTS-STARTPTS [bg];
+[3:0] setpts=PTS-STARTPTS, scale=800:450:force_original_aspect_ratio=1 [cam];
+[bg][cam] overlay=x=0:y=64 [bg_pc];
+[preroll][silence_pre] [bg_pc][maina] [postroll][silence_post] concat=n=3:v=1:a=1 [outv][outa]" \
+ -map '[outv]' -map '[outa]' \
+ -pix_fmt yuv420p \
+ -vcodec libx264 -crf 22 -threads 6 -preset veryfast -acodec aac -aq 80 -strict -2 \
+ -movflags +faststart ${OUT_DIR}/${ROOM}/${OUT_FILE}.mp4
+
+else
+
 ffmpeg -y -loglevel verbose \
  -loop 1 -i video/preroll.jpg \
  -loop 1 -i ${OUT_DIR}/${ROOM}/${OUT_FILE}.png \
@@ -264,6 +291,8 @@ aevalsrc=0:d=1 [silence_post];
  -pix_fmt yuv420p \
  -vcodec libx264 -crf 22 -threads 6 -preset veryfast -acodec aac -aq 80 -strict -2 \
  -movflags +faststart ${OUT_DIR}/${ROOM}/${OUT_FILE}.mp4
+
+fi
 
 #compand=attacks=5:decays=10:volume=-20:points=-90/-90|-40/-20|0/-10:delay=5
 rm ${OUT_DIR}/${ROOM}/${OUT_FILE}.png
