@@ -1,19 +1,20 @@
 OB_ID=4485
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=100397,997
+CAM_START=98742,0
+CAM_FILE='16-01-31_101814.ts','16-01-31_114159.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=100378,997
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_FILE='16-01-31_101832.ts','16-01-31_114202.ts'
+PRES_START=98724,0
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='k4601'
 
 TITLE='Contributing to the Graphics stack on FreeBSD'
 SPEAKERS='Jean-Sébastien Pédron'
-
+#NOAUDIO
+#PARTIAL

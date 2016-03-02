@@ -1,19 +1,20 @@
 OB_ID=4551
 
-CAM_END=
-CAM_START=
-CAM_FILE=
+CAM_END=6073,98393
+CAM_START=5074,95444
+CAM_FILE='16-01-31_083557.ts','16-01-31_101814.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=
+PRES_END=6105,98391
 PRES_SEEK=0 #optional
-PRES_FILE=
-PRES_START=
+PRES_FILE=5090,95444
+PRES_START='16-01-31_083540.ts'
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='k4601'
 
 TITLE='Interesting Things You Can Do With ZFS'
 SPEAKERS='Allan Jude'
-
+#NOAUDIO
+#PARTIAL
