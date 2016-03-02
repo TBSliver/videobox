@@ -58,6 +58,8 @@ inotifywait -m $MONITORPATH -e create -e moved_to | while read path action file;
 			SRCPATH='/home/fosdem/storage/sunday'
 		elif [ "$cam_time" = "restored" ]; then
 			SRCPATH='/home/fosdem/storage/saturday'
+		elif [ "$cam_time" = "cloud" ]; then
+			SRCPATH='/home/fosdem/storage/saturday'
 		else
 			echo Unknown timestamp in job "$file", cam file "${CAM_FILE}"
 			mv $MONITORPATH/$file $FINISHEDJOBS/ 
