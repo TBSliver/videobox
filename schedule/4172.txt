@@ -1,3 +1,4 @@
+#NOAUDIO
 OB_ID=4172
 
 CAM_END=

@@ -1,5 +1,4 @@
-#NOAUDIO
-OB_ID=4009
+OB_ID=4543
 
 CAM_END=
 CAM_START=
@@ -13,8 +12,8 @@ PRES_FILE=
 PRES_START=
 PRES_STREAM='https://stream-a.fosdem.org/'
 
-ROOM='k3201'
+ROOM='h1302'
 
-TITLE='Jancy'
-SPEAKERS='Vladimir Gladkov'
+TITLE='Lightning Talks'
+SPEAKERS='Luna Duclos'
 
