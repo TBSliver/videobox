@@ -1,7 +1,7 @@
 OB_ID=4595
 
-CAM_END=7208
-CAM_START=4577
+CAM_START=4591
+CAM_END=7119
 CAM_FILE='16-01-31_083339.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
@@ -12,8 +12,10 @@ PRES_FILE='16-01-31_083441.ts'
 PRES_START=44611
 PRES_STREAM='https://stream-a.fosdem.org/'
 
+AUDIO="FR-FL|FR-FR"
+
 ROOM='h2214'
 
 TITLE='Perl 6 - Why People Are So Excited'
-SPEAKERS='Curtis 'Ovid' Poe'
+SPEAKERS="Curtis 'Ovid' Poe"
 
