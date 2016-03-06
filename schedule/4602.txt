@@ -6,10 +6,10 @@ CAM_FILE='16-01-31_083339.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=22951
+PRES_START=21856
+PRES_END=23183
 PRES_SEEK=0 #optional
-PRES_FILE='16-01-31_083441.ts'
-PRES_START=21621
+PRES_FILE='16-01-31_083019.ts'
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 AUDIO="FR-FL|FR-FR"
