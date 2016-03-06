@@ -1,7 +1,7 @@
 OB_ID=4603
 
-CAM_END=24444
-CAM_START=23270
+CAM_START=23187
+CAM_END=24356
 CAM_FILE='16-01-31_083339.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
@@ -11,6 +11,8 @@ PRES_SEEK=0 #optional
 PRES_FILE='16-01-31_083441.ts'
 PRES_START=23154
 PRES_STREAM='https://stream-a.fosdem.org/'
+
+AUDIO="FR-FL|FR-FR"
 
 ROOM='h2214'
 
