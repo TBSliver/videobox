@@ -1,20 +1,19 @@
+#NOSLIDES
 OB_ID=4593
 
-CAM_END=1712
-CAM_START=1662
+CAM_START=1580
+CAM_END=1628
 CAM_FILE='16-01-31_083339.ts'
 CAM_SEEK=0 # optional
 CAM_STREAM='https://stream-a.fosdem.org/'
 
-PRES_END=1596
+PRES_END=
 PRES_SEEK=0 #optional
-PRES_FILE='16-01-31_083441.ts'
-PRES_START=1546
+PRES_FILE=
+PRES_START=
 PRES_STREAM='https://stream-a.fosdem.org/'
 
 ROOM='h2214'
 
 TITLE='Welcome to the Perl devroom'
 SPEAKERS='Claudio Ramirez'
-
-SPEAKERS="$SPEAKERS and Wendy G.A. van Dijk"
